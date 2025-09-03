@@ -189,10 +189,6 @@ async function loadStoresAndFloors() {
   }
 }
 
-
-
-
-
 // 最新情報を取得
 async function handleRefreshData() {
   if (!selectedStore || !selectedFloor) {
@@ -254,7 +250,6 @@ async function loadShelvesData() {
     alert('棚情報の取得に失敗しました: ' + error.message);
   }
 }
-
 
 // 選択商品削除
 async function handleDeleteSelected() {
